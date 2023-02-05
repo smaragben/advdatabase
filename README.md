@@ -12,7 +12,7 @@
 ```
 hostnamectl set-hostname new-hostname
 ```
-3. Ακολουθήθηκαν οι οδηγοί: 
+3. Ακολουθήθηκαν οι οδηγοί:  
 Για εγκατάσταση του Hadoop
 https://sparkbyexamples.com/hadoop/apache-hadoop-installation/
 Για εγκατάσταση του Yarn:
@@ -21,23 +21,23 @@ https://sparkbyexamples.com/hadoop/yarn-setup-and-run-map-reduce-program/
 https://sparkbyexamples.com/spark/spark-setup-on-hadoop-yarn/
 Τα αντίστοιχα configuation αρχεία που αλλάχθηκαν για το Spark και το Yarn μπορούν να βρεθούν στο repository αυτό στους φακέλους Hadoop_config και Yarn_config.
 
-4.Για να εκκινήσουν όλοι οι hadoop daemons εκτελούμε:
+4.Για να εκκινήσουν όλοι οι hadoop daemons εκτελούμε:  
 ```
 start-dfs.sh
 ```
 
-5.Για να ξεκινήσουμε το yarn εκτελούμε:
+5.Για να ξεκινήσουμε το yarn εκτελούμε:  
 ```
 start-yarn.sh
 ```
 
-6.Για να τρέξουμε ένα από τα script στο cluster χρησιμοποιούμε την εντολή:
-Για 2 workers
+6.Για να τρέξουμε ένα από τα script στο cluster χρησιμοποιούμε την εντολή:  
+Για 2 workers  
 ```
 spark-submit --deploy-mode cluster --num-executors 2 --executor-cores 4 <python_script_path>
-```
-Για 1 worker
-```
+```  
+Για 1 worker  
+```  
 spark-submit --deploy-mode cluster --num-executors 2 --executor-cores 4 <python_script_path>
 ```
 
