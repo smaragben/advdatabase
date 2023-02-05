@@ -13,12 +13,12 @@
 hostnamectl set-hostname new-hostname
 ```
 3. Ακολουθήθηκαν οι οδηγοί:  
-Για εγκατάσταση του Hadoop
-https://sparkbyexamples.com/hadoop/apache-hadoop-installation/
-Για εγκατάσταση του Yarn:
-https://sparkbyexamples.com/hadoop/yarn-setup-and-run-map-reduce-program/
-Και εγκατάσταση του Spark:
-https://sparkbyexamples.com/spark/spark-setup-on-hadoop-yarn/
+Για εγκατάσταση του Hadoop  
+https://sparkbyexamples.com/hadoop/apache-hadoop-installation/  
+Για εγκατάσταση του Yarn:  
+https://sparkbyexamples.com/hadoop/yarn-setup-and-run-map-reduce-program/  
+Και εγκατάσταση του Spark:  
+https://sparkbyexamples.com/spark/spark-setup-on-hadoop-yarn/  
 Τα αντίστοιχα configuation αρχεία που αλλάχθηκαν για το Spark και το Yarn μπορούν να βρεθούν στο repository αυτό στους φακέλους Hadoop_config και Yarn_config.
 
 4.Για να εκκινήσουν όλοι οι hadoop daemons εκτελούμε:  
